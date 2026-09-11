@@ -22,8 +22,8 @@ generator places them, so the reference layout never reaches the model at infere
 
 ![Architecture](docs/fig1_architecture.png)
 
-Also included: four compared methods (`hgc_layout/baselines/`), the twelve reported
-quantities (`hgc_layout/metrics/`), paired Wilcoxon tests with Holm correction
+Also included: four compared methods (`hgc_layout/baselines/`), the eleven metrics and
+the generation time (`hgc_layout/metrics/`), paired Wilcoxon tests with Holm correction
 (`hgc_layout/stats/`), scene editing by command routing (`hgc_layout/editing/`), and the
 experiment drivers for the comparison, ablations, sparsity robustness, editing latency
 and score-reliability analyses (`hgc_layout/experiments.py`).
@@ -48,7 +48,7 @@ hgc_layout/
   generation/      mixture and von Mises heads, decoder with attention traces, retrieval
   optimization/    constraint forces, adaptive weights, violations, force-directed solver
   metrics/         fidelity, plausibility, semantic alignment, rating reliability
-  baselines/       LayoutGPT, HOG-Layout, UrbanGAN, GraphRNN-Layout
+  baselines/       LayoutGPT, FW-FD, UrbanGAN, GraphRNN-Layout
   stats/           exact Wilcoxon signed-rank tests and Holm-Bonferroni correction
   pipeline.py      the framework, with every ablation switch
   training.py      the three training stages and checkpointing
