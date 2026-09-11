@@ -1,0 +1,81 @@
+# Full experimental configuration.
+seed: 0
+seeds: [0, 1, 2]                 # every reported number is averaged over these seeds
+
+data:
+  source: real              # synthetic | real
+  benchmark_dir: data/benchmark  # scene JSON files, one subdirectory per split
+  synthetic_dir: data/synthetic
+  rules: data/rules/layout_rules.yaml
+  n_scenes: 100
+  split_ratio: [0.6, 0.2, 0.2]
+
+planner:
+  kind: llm                      # the reported results use the llm planner; template is the offline fallback
+  model: gpt-4o-mini
+  top_k_rules: 5
+
+graph:
+  delta_m: 200.0
+  embed_dim: 256
+  hidden_dim: 64
+  heads: 4
+  layers: 2
+  pretrain_epochs: 200
+  batch_size: 10
+  temperature: 0.5
+  lr: 1.0e-3
+  weight_decay: 1.0e-5
+  feature_dropout: 0.20
+  edge_removal: 0.20
+  edge_addition: 0.05
+  checkpoints: [50, 100, 150, 200]
+
+generator:
+  d_model: 256
+  layers: 4
+  heads: 8
+  ff_dim: 1024
+  dropout: 0.10
+  mixture_components: 5
+  epochs: 60
+  lr: 1.0e-4
+  sample: false                  # false: take the mixture mode, deterministic per seed
+
+optimizer:
+  step_size: 0.05
+  max_iter: 500
+  tol: 1.0e-3
+  deadlock_cumulative: 0.10
+  deadlock_net: 0.20
+  beta: 0.01
+  unroll: 40
+  warmup: 20
+  epochs: 20
+  lr: 1.0e-3
+  lambdas:
+    collision: 1.00
+    boundary: 1.00
+    proximity: 0.50
+    support: 0.50
+    frontage: 0.30
+
+baselines:
+  names: [LayoutGPT, FW-FD, UrbanGAN, GraphRNN-Layout]
+  epochs: 60
+
+evaluation:
+  setback_m: 18.0
+  walkable_m: 300.0
+  sp_model: gpt-4o-mini          # the model used for the reported results; null routes to the offline fallback, which must not be reported
+  primary_metrics: [SPR, COL, SP]
+  alpha: 0.05
+  dropout_levels: [0.0, 0.25, 0.50, 0.75]
+  editing_scenes: 10
+  sp_reliability_runs: 3
+  sp_reliability_scenes: 20
+  run: [comparison, core_ablation, optimizer_ablation, data_source, robustness, editing, reliability]
+
+output:
+  dir: outputs/main
+  checkpoint: checkpoints/hgc_layout.pt

@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use this software or the GeoSceneBench benchmark, please cite both the archived deposit and the paper."
+title: "HGC-Layout: contrastive graph priors and adaptive force-directed optimization for text-driven urban scene layouts"
+abstract: >-
+  Code and the GeoSceneBench benchmark for HGC-Layout, which recasts text-driven
+  geospatial layout generation as conditional generation on a multi-source
+  heterogeneous graph. A graph attention encoder pre-trained with a multi-view
+  contrastive objective supplies embeddings to both an autoregressive coordinate
+  generator and an adaptive force-directed optimizer whose constraint weights are
+  inferred from graph context.
+type: software
+version: "1.0.0"
+date-released: "[TODO-DATE]"          # YYYY-MM-DD of the Zenodo deposit
+doi: "10.5281/zenodo.[TODO-REPO]"
+repository-code: "https://github.com/[TODO-OWNER]/HGC-Layout"
+license: MIT
+keywords:
+  - geospatial scene generation
+  - heterogeneous graph
+  - graph contrastive learning
+  - graph attention network
+  - layout generation
+  - force-directed optimization
+
+authors:
+  - family-names: Zhao
+    given-names: Chunlan
+    affiliation: "College of Geography and Environmental Science, Hainan Normal University, Haikou, Hainan, China"
+  - family-names: Li
+    given-names: Yingce
+    affiliation: "College of Geography and Environmental Science, Hainan Normal University, Haikou, Hainan, China"
+  - family-names: Wu
+    given-names: Linyuan
+    affiliation: "College of Geography and Environmental Science, Hainan Normal University, Haikou, Hainan, China"
+  - family-names: Du
+    given-names: Wenxing
+    affiliation: "College of Geography and Environmental Science, Hainan Normal University, Haikou, Hainan, China"
+    email: duwx@hainnu.edu.cn
+    orcid: "https://orcid.org/0000-0003-4380-7659"
+  - family-names: Zeng
+    given-names: Qiwei
+    affiliation: "College of Geography and Environmental Science, Hainan Normal University, Haikou, Hainan, China"
+  - family-names: Cheng
+    given-names: Jincheng
+    affiliation: "College of Geography and Environmental Science, Hainan Normal University, Haikou, Hainan, China"
+
+preferred-citation:
+  type: article
+  title: "Contrastive graph priors and adaptive force-directed optimization for robust text-driven urban scene layouts"
+  journal: "Scientific Reports"
+  year: 2026
+  doi: "[TODO-PAPER-DOI]"
+  authors:
+    - family-names: Zhao
+      given-names: Chunlan
+    - family-names: Li
+      given-names: Yingce
+    - family-names: Wu
+      given-names: Linyuan
+    - family-names: Du
+      given-names: Wenxing
+    - family-names: Zeng
+      given-names: Qiwei
+    - family-names: Cheng
+      given-names: Jincheng

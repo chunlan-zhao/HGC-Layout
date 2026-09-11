@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hgc_layout"
+version = "0.1.0"
+description = "Hierarchical graph contrastive layout generation for text-driven geospatial scenes: multi-source graph construction, contrastive pre-training, graph-conditioned autoregressive placement, and an adaptive force-directed constraint solver."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "torch>=2.0",
+    "pyyaml>=6.0",
+    "matplotlib>=3.6",
+    "scikit-learn>=1.2",
+]
+
+[project.optional-dependencies]
+full = [
+    "torchvision>=0.15",
+    "transformers>=4.30",
+    "sentence-transformers>=2.5",
+    "openai>=1.0",
+]
+dev = ["pytest>=7", "ruff"]
+
+[tool.setuptools.packages.find]
+include = ["hgc_layout*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

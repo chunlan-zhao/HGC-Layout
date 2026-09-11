@@ -1,0 +1,1500 @@
+{
+  "scene_id": "scene_017",
+  "category": "campus",
+  "difficulty": "hard",
+  "tile_id": "tile_005",
+  "description": "A hard campus of roughly one square kilometre containing 4 apartment blocks, 4 detached houses, 2 gardens, 3 linear green belts, 6 parks and 4 playgrounds, arranged along the arterial road grid with several adjacent frontages.",
+  "boundary": {
+    "length": 1000.0,
+    "width": 1000.0
+  },
+  "entities": [
+    {
+      "id": "e00",
+      "type": "building",
+      "category": "residential",
+      "description": "detached house",
+      "size": [
+        30.12,
+        29.74,
+        13.34
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        645.11,
+        615.59
+      ],
+      "orientation": 1.7772
+    },
+    {
+      "id": "e01",
+      "type": "green",
+      "category": "park",
+      "description": "garden",
+      "size": [
+        84.6,
+        68.19,
+        0.46
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        94.69,
+        627.33
+      ],
+      "orientation": 0.0499
+    },
+    {
+      "id": "e02",
+      "type": "poi",
+      "category": "amenity",
+      "description": "playground",
+      "size": [
+        7.85,
+        7.87,
+        3.3
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        701.47,
+        322.1
+      ],
+      "orientation": 1.41
+    },
+    {
+      "id": "e03",
+      "type": "green",
+      "category": "park",
+      "description": "linear green belt",
+      "size": [
+        71.93,
+        59.76,
+        0.54
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        354.95,
+        433.82
+      ],
+      "orientation": 1.5465
+    },
+    {
+      "id": "e04",
+      "type": "poi",
+      "category": "amenity",
+      "description": "playground",
+      "size": [
+        7.53,
+        8.76,
+        2.85
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        742.64,
+        443.34
+      ],
+      "orientation": 1.6424
+    },
+    {
+      "id": "e05",
+      "type": "green",
+      "category": "park",
+      "description": "linear green belt",
+      "size": [
+        81.37,
+        53.81,
+        0.6
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        248.57,
+        707.34
+      ],
+      "orientation": 0.0861
+    },
+    {
+      "id": "e06",
+      "type": "poi",
+      "category": "amenity",
+      "description": "playground",
+      "size": [
+        7.76,
+        6.87,
+        3.24
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        812.92,
+        549.99
+      ],
+      "orientation": 1.5943
+    },
+    {
+      "id": "e07",
+      "type": "green",
+      "category": "park",
+      "description": "linear green belt",
+      "size": [
+        87.03,
+        55.35,
+        0.56
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        325.86,
+        329.82
+      ],
+      "orientation": 6.2572
+    },
+    {
+      "id": "e08",
+      "type": "poi",
+      "category": "amenity",
+      "description": "playground",
+      "size": [
+        8.63,
+        7.99,
+        2.78
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        800.21,
+        468.65
+      ],
+      "orientation": 1.6188
+    },
+    {
+      "id": "e09",
+      "type": "green",
+      "category": "park",
+      "description": "park",
+      "size": [
+        84.47,
+        62.83,
+        0.54
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        59.45,
+        344.6
+      ],
+      "orientation": 6.2708
+    },
+    {
+      "id": "e10",
+      "type": "building",
+      "category": "residential",
+      "description": "detached house",
+      "size": [
+        29.95,
+        21.51,
+        13.76
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        590.83,
+        389.53
+      ],
+      "orientation": 1.4754
+    },
+    {
+      "id": "e11",
+      "type": "green",
+      "category": "park",
+      "description": "park",
+      "size": [
+        75.42,
+        65.04,
+        0.47
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        243.16,
+        558.67
+      ],
+      "orientation": 1.5822
+    },
+    {
+      "id": "e12",
+      "type": "building",
+      "category": "residential",
+      "description": "apartment block",
+      "size": [
+        40.09,
+        28.52,
+        14.76
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        652.67,
+        654.96
+      ],
+      "orientation": 1.5724
+    },
+    {
+      "id": "e13",
+      "type": "green",
+      "category": "park",
+      "description": "park",
+      "size": [
+        77.03,
+        54.96,
+        0.56
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        256.41,
+        427.85
+      ],
+      "orientation": 1.4896
+    },
+    {
+      "id": "e14",
+      "type": "building",
+      "category": "residential",
+      "description": "detached house",
+      "size": [
+        36.36,
+        27.76,
+        17.76
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        620.07,
+        497.09
+      ],
+      "orientation": 1.611
+    },
+    {
+      "id": "e15",
+      "type": "green",
+      "category": "park",
+      "description": "garden",
+      "size": [
+        82.88,
+        52.5,
+        0.51
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        414.02,
+        680.39
+      ],
+      "orientation": 6.2753
+    },
+    {
+      "id": "e16",
+      "type": "building",
+      "category": "residential",
+      "description": "apartment block",
+      "size": [
+        41.51,
+        25.74,
+        15.74
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        653.14,
+        659.9
+      ],
+      "orientation": 1.5877
+    },
+    {
+      "id": "e17",
+      "type": "green",
+      "category": "park",
+      "description": "park",
+      "size": [
+        91.82,
+        70.47,
+        0.44
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        264.7,
+        633.6
+      ],
+      "orientation": 6.2502
+    },
+    {
+      "id": "e18",
+      "type": "building",
+      "category": "residential",
+      "description": "detached house",
+      "size": [
+        33.39,
+        26.65,
+        14.06
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        592.9,
+        402.51
+      ],
+      "orientation": 1.4962
+    },
+    {
+      "id": "e19",
+      "type": "green",
+      "category": "park",
+      "description": "park",
+      "size": [
+        77.44,
+        70.43,
+        0.55
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        268.7,
+        213.08
+      ],
+      "orientation": 0.3787
+    },
+    {
+      "id": "e20",
+      "type": "building",
+      "category": "residential",
+      "description": "apartment block",
+      "size": [
+        31.25,
+        22.33,
+        16.83
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        668.53,
+        548.39
+      ],
+      "orientation": 1.6254
+    },
+    {
+      "id": "e21",
+      "type": "green",
+      "category": "park",
+      "description": "park",
+      "size": [
+        93.87,
+        62.44,
+        0.43
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        391.99,
+        571.77
+      ],
+      "orientation": 1.7021
+    },
+    {
+      "id": "e22",
+      "type": "building",
+      "category": "residential",
+      "description": "apartment block",
+      "size": [
+        33.55,
+        29.69,
+        15.8
+      ],
+      "group": "residential zone",
+      "parent": null,
+      "position": [
+        611.64,
+        475.06
+      ],
+      "orientation": 1.6956
+    }
+  ],
+  "relations": [
+    {
+      "source": "e00",
+      "target": "e08",
+      "type": "near",
+      "source_label": "detached house",
+      "target_label": "playground"
+    },
+    {
+      "source": "e00",
+      "target": "e12",
+      "type": "adjacent_to",
+      "source_label": "detached house",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e00",
+      "target": "e14",
+      "type": "adjacent_to",
+      "source_label": "detached house",
+      "target_label": "detached house"
+    },
+    {
+      "source": "e00",
+      "target": "e16",
+      "type": "adjacent_to",
+      "source_label": "detached house",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e00",
+      "target": "e20",
+      "type": "adjacent_to",
+      "source_label": "detached house",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e01",
+      "target": "e05",
+      "type": "near",
+      "source_label": "garden",
+      "target_label": "linear green belt"
+    },
+    {
+      "source": "e01",
+      "target": "e11",
+      "type": "near",
+      "source_label": "garden",
+      "target_label": "park"
+    },
+    {
+      "source": "e02",
+      "target": "e04",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "playground"
+    },
+    {
+      "source": "e02",
+      "target": "e06",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "playground"
+    },
+    {
+      "source": "e02",
+      "target": "e08",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "playground"
+    },
+    {
+      "source": "e02",
+      "target": "e10",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "detached house"
+    },
+    {
+      "source": "e02",
+      "target": "e14",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "detached house"
+    },
+    {
+      "source": "e02",
+      "target": "e18",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "detached house"
+    },
+    {
+      "source": "e02",
+      "target": "e22",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e03",
+      "target": "e07",
+      "type": "adjacent_to",
+      "source_label": "linear green belt",
+      "target_label": "linear green belt"
+    },
+    {
+      "source": "e03",
+      "target": "e13",
+      "type": "adjacent_to",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e03",
+      "target": "e15",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "garden"
+    },
+    {
+      "source": "e03",
+      "target": "e17",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e03",
+      "target": "e21",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e03",
+      "target": "e22",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e04",
+      "target": "e06",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "playground"
+    },
+    {
+      "source": "e04",
+      "target": "e08",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "playground"
+    },
+    {
+      "source": "e04",
+      "target": "e10",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "detached house"
+    },
+    {
+      "source": "e04",
+      "target": "e12",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e04",
+      "target": "e14",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "detached house"
+    },
+    {
+      "source": "e04",
+      "target": "e16",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e04",
+      "target": "e20",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e04",
+      "target": "e22",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e05",
+      "target": "e17",
+      "type": "adjacent_to",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e05",
+      "target": "e21",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e06",
+      "target": "e08",
+      "type": "adjacent_to",
+      "source_label": "playground",
+      "target_label": "playground"
+    },
+    {
+      "source": "e06",
+      "target": "e20",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "apartment block"
+    },
+    {
+      "source": "e07",
+      "target": "e09",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e07",
+      "target": "e11",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e07",
+      "target": "e13",
+      "type": "adjacent_to",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e07",
+      "target": "e18",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "detached house"
+    },
+    {
+      "source": "e07",
+      "target": "e19",
+      "type": "adjacent_to",
+      "source_label": "linear green belt",
+      "target_label": "park"
+    },
+    {
+      "source": "e08",
+      "target": "e10",
+      "type": "near",
+      "source_label": "playground",
+      "target_label": "detached house"
+    },
+    {
+      "source": "e09",
+      "target": "e13",
+      "type": "near",
+      "source_label": "park",
+      "target_label": "park"
+    },
+    {
+      "source": "e10",
+      "target": "e12",
+      "type": "near",
+      "source_label": "detached house",
+      "target_label": "apartment block"
+    }
+  ],
+  "area_ratio": {
+    "residential zone": 0.1197,
+    "green belt": 0.8803
+  },
+  "pois": [
+    {
+      "id": "p00",
+      "category": "pharmacy",
+      "position": [
+        293.47709886439577,
+        781.2777364215118
+      ]
+    },
+    {
+      "id": "p01",
+      "category": "bank",
+      "position": [
+        452.15553735315314,
+        632.2850771346752
+      ]
+    },
+    {
+      "id": "p02",
+      "category": "bank",
+      "position": [
+        203.00875950182677,
+        672.8257003804281
+      ]
+    },
+    {
+      "id": "p03",
+      "category": "pharmacy",
+      "position": [
+        645.3435953370049,
+        918.7394485560033
+      ]
+    },
+    {
+      "id": "p04",
+      "category": "pharmacy",
+      "position": [
+        876.9435876446773,
+        821.4382531175493
+      ]
+    },
+    {
+      "id": "p05",
+      "category": "pharmacy",
+      "position": [
+        285.45126723831885,
+        896.7731676875189
+      ]
+    },
+    {
+      "id": "p06",
+      "category": "pharmacy",
+      "position": [
+        946.9616255558873,
+        363.0683565484207
+      ]
+    },
+    {
+      "id": "p07",
+      "category": "bank",
+      "position": [
+        579.6730633563059,
+        512.9377744547106
+      ]
+    },
+    {
+      "id": "p08",
+      "category": "pharmacy",
+      "position": [
+        755.963898419013,
+        891.3766251345464
+      ]
+    },
+    {
+      "id": "p09",
+      "category": "market",
+      "position": [
+        298.06558312864297,
+        937.8857126123366
+      ]
+    },
+    {
+      "id": "p10",
+      "category": "clinic",
+      "position": [
+        520.1884942508302,
+        520.827641991973
+      ]
+    },
+    {
+      "id": "p11",
+      "category": "gym",
+      "position": [
+        439.1744427150188,
+        67.94235928817704
+      ]
+    },
+    {
+      "id": "p12",
+      "category": "clinic",
+      "position": [
+        380.7754995212742,
+        272.904933991555
+      ]
+    },
+    {
+      "id": "p13",
+      "category": "gym",
+      "position": [
+        65.55590855560224,
+        750.306406155503
+      ]
+    },
+    {
+      "id": "p14",
+      "category": "gym",
+      "position": [
+        911.1718794698886,
+        134.32656557006925
+      ]
+    },
+    {
+      "id": "p15",
+      "category": "clinic",
+      "position": [
+        728.3165663844413,
+        418.6680539441261
+      ]
+    },
+    {
+      "id": "p16",
+      "category": "gym",
+      "position": [
+        257.54853658913856,
+        303.08538931921635
+      ]
+    }
+  ],
+  "roads": {
+    "nodes": [
+      {
+        "id": "r_0_0",
+        "position": [
+          180.0,
+          499.99999999999994
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_0_1",
+        "position": [
+          180.0,
+          820.0
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_1_0",
+        "position": [
+          499.99999999999994,
+          499.99999999999994
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_1_1",
+        "position": [
+          499.99999999999994,
+          820.0
+        ],
+        "kind": "intersection"
+      }
+    ],
+    "edges": [
+      [
+        "r_0_0",
+        "r_1_0"
+      ],
+      [
+        "r_0_0",
+        "r_0_1"
+      ],
+      [
+        "r_0_1",
+        "r_1_1"
+      ],
+      [
+        "r_1_0",
+        "r_1_1"
+      ]
+    ],
+    "axes": {
+      "x": [
+        180.0,
+        499.99999999999994
+      ],
+      "y": [
+        499.99999999999994,
+        820.0
+      ]
+    }
+  },
+  "land_cover": [
+    {
+      "id": "l00",
+      "class": "water",
+      "position": [
+        939.917137243937,
+        603.4428628078642
+      ]
+    },
+    {
+      "id": "l01",
+      "class": "vegetation",
+      "position": [
+        755.4795812467095,
+        405.05064179836114
+      ]
+    },
+    {
+      "id": "l02",
+      "class": "water",
+      "position": [
+        805.123045467314,
+        299.6614594701722
+      ]
+    },
+    {
+      "id": "l03",
+      "class": "vegetation",
+      "position": [
+        838.6552782989562,
+        907.2784485881301
+      ]
+    },
+    {
+      "id": "l04",
+      "class": "bare",
+      "position": [
+        921.8360736568542,
+        49.94423851307983
+      ]
+    },
+    {
+      "id": "l05",
+      "class": "vegetation",
+      "position": [
+        949.021828744101,
+        946.0325485974555
+      ]
+    },
+    {
+      "id": "l06",
+      "class": "built",
+      "position": [
+        811.2742217411336,
+        487.60192866649754
+      ]
+    },
+    {
+      "id": "l07",
+      "class": "bare",
+      "position": [
+        822.7078034690654,
+        43.34613101940121
+      ]
+    },
+    {
+      "id": "l08",
+      "class": "vegetation",
+      "position": [
+        102.23662391575917,
+        612.7776571190966
+      ]
+    },
+    {
+      "id": "l09",
+      "class": "vegetation",
+      "position": [
+        665.7809760089137,
+        562.3941162323007
+      ]
+    }
+  ],
+  "rs_stats": {
+    "e00": [
+      0.7968,
+      0.0613,
+      0.0253,
+      0.1166,
+      -0.1251,
+      0.0342,
+      0.6198,
+      0.2934
+    ],
+    "e01": [
+      0.0846,
+      0.8221,
+      0.0295,
+      0.0638,
+      0.6581,
+      0.0455,
+      0.5603,
+      0.3199
+    ],
+    "e02": [
+      0.5864,
+      0.1879,
+      0.0497,
+      0.1761,
+      0.0359,
+      0.1245,
+      0.4152,
+      0.319
+    ],
+    "e03": [
+      0.0949,
+      0.8379,
+      0.0673,
+      0.0,
+      0.6965,
+      0.0507,
+      0.344,
+      0.3077
+    ],
+    "e04": [
+      0.5684,
+      0.2447,
+      0.0148,
+      0.1721,
+      0.0898,
+      0.0913,
+      0.3652,
+      0.271
+    ],
+    "e05": [
+      0.0387,
+      0.8542,
+      0.0405,
+      0.0666,
+      0.6695,
+      0.0487,
+      0.4313,
+      0.3564
+    ],
+    "e06": [
+      0.5741,
+      0.206,
+      0.0438,
+      0.1761,
+      0.0555,
+      0.0672,
+      0.6353,
+      0.3356
+    ],
+    "e07": [
+      0.1181,
+      0.8327,
+      0.0103,
+      0.0388,
+      0.6321,
+      0.0664,
+      0.5488,
+      0.3077
+    ],
+    "e08": [
+      0.5886,
+      0.1726,
+      0.0684,
+      0.1704,
+      -0.0079,
+      0.0694,
+      0.5448,
+      0.3527
+    ],
+    "e09": [
+      0.0846,
+      0.8868,
+      0.0,
+      0.0287,
+      0.666,
+      0.0674,
+      0.3085,
+      0.2629
+    ],
+    "e10": [
+      0.7188,
+      0.1325,
+      0.0,
+      0.1487,
+      -0.0388,
+      0.0724,
+      0.3092,
+      0.2471
+    ],
+    "e11": [
+      0.0845,
+      0.7798,
+      0.0473,
+      0.0883,
+      0.6338,
+      0.0708,
+      0.6334,
+      0.4006
+    ],
+    "e12": [
+      0.7271,
+      0.0704,
+      0.0331,
+      0.1694,
+      -0.0979,
+      0.0933,
+      0.6123,
+      0.3477
+    ],
+    "e13": [
+      0.082,
+      0.8167,
+      0.053,
+      0.0482,
+      0.6207,
+      0.0992,
+      0.2788,
+      0.2613
+    ],
+    "e14": [
+      0.8045,
+      0.0715,
+      0.0,
+      0.1241,
+      -0.1094,
+      0.1136,
+      0.4531,
+      0.2924
+    ],
+    "e15": [
+      0.0795,
+      0.8003,
+      0.0582,
+      0.062,
+      0.6119,
+      0.0654,
+      0.385,
+      0.3367
+    ],
+    "e16": [
+      0.7023,
+      0.0902,
+      0.0278,
+      0.1798,
+      -0.034,
+      0.0841,
+      0.6031,
+      0.2108
+    ],
+    "e17": [
+      0.1025,
+      0.8845,
+      0.0096,
+      0.0034,
+      0.7016,
+      0.1125,
+      0.6177,
+      0.233
+    ],
+    "e18": [
+      0.7345,
+      0.1077,
+      0.024,
+      0.1339,
+      -0.0654,
+      0.0624,
+      0.6149,
+      0.256
+    ],
+    "e19": [
+      0.1066,
+      0.7978,
+      0.0307,
+      0.065,
+      0.6484,
+      0.095,
+      0.4266,
+      0.2983
+    ],
+    "e20": [
+      0.7657,
+      0.085,
+      0.022,
+      0.1273,
+      -0.0678,
+      0.0604,
+      0.3633,
+      0.3123
+    ],
+    "e21": [
+      0.0853,
+      0.8269,
+      0.0157,
+      0.0721,
+      0.6533,
+      0.0874,
+      0.4463,
+      0.2541
+    ],
+    "e22": [
+      0.7718,
+      0.0732,
+      0.0624,
+      0.0926,
+      -0.1154,
+      0.082,
+      0.4926,
+      0.3273
+    ],
+    "p00": [
+      0.5512,
+      0.7227,
+      0.6446,
+      0.2923,
+      0.3528,
+      0.3186,
+      0.4257,
+      0.2244
+    ],
+    "p01": [
+      0.226,
+      0.4073,
+      0.3724,
+      0.4541,
+      0.4833,
+      0.134,
+      0.4169,
+      0.3893
+    ],
+    "p02": [
+      0.5211,
+      0.4146,
+      0.2928,
+      0.3146,
+      0.3691,
+      0.3944,
+      0.351,
+      0.35
+    ],
+    "p03": [
+      0.4073,
+      0.3746,
+      0.3454,
+      0.736,
+      0.5363,
+      0.3902,
+      0.4163,
+      0.4344
+    ],
+    "p04": [
+      0.2745,
+      0.3155,
+      0.1746,
+      0.264,
+      0.4662,
+      0.1352,
+      0.4211,
+      0.3712
+    ],
+    "p05": [
+      0.2622,
+      0.55,
+      0.4294,
+      0.341,
+      0.5486,
+      0.4919,
+      0.3338,
+      0.1489
+    ],
+    "p06": [
+      0.3552,
+      0.2249,
+      0.4607,
+      0.5697,
+      0.6386,
+      0.3379,
+      0.531,
+      0.3231
+    ],
+    "p07": [
+      0.4068,
+      0.5674,
+      0.4167,
+      0.483,
+      0.5683,
+      0.3571,
+      0.5087,
+      0.78
+    ],
+    "p08": [
+      0.4237,
+      0.3915,
+      0.5223,
+      0.3672,
+      0.5158,
+      0.4921,
+      0.343,
+      0.3893
+    ],
+    "p09": [
+      0.5399,
+      0.3205,
+      0.1468,
+      0.1132,
+      0.4397,
+      0.2734,
+      0.2022,
+      0.168
+    ],
+    "p10": [
+      0.37,
+      0.3869,
+      0.4796,
+      0.4377,
+      0.6722,
+      0.5527,
+      0.4008,
+      0.5649
+    ],
+    "p11": [
+      0.4572,
+      0.206,
+      0.4956,
+      0.5837,
+      0.3407,
+      0.4582,
+      0.3875,
+      0.5229
+    ],
+    "p12": [
+      0.4606,
+      0.6357,
+      0.2011,
+      0.6893,
+      0.412,
+      0.373,
+      0.3,
+      0.458
+    ],
+    "p13": [
+      0.5227,
+      0.4927,
+      0.3832,
+      0.1348,
+      0.3879,
+      0.3281,
+      0.3935,
+      0.2346
+    ],
+    "p14": [
+      0.403,
+      0.2206,
+      0.3617,
+      0.4079,
+      0.4556,
+      0.5019,
+      0.3726,
+      0.0
+    ],
+    "p15": [
+      0.3605,
+      0.2773,
+      0.3099,
+      0.4703,
+      0.568,
+      0.661,
+      0.4411,
+      0.4359
+    ],
+    "p16": [
+      0.7152,
+      0.3002,
+      0.4623,
+      0.6243,
+      0.3462,
+      0.3855,
+      0.2689,
+      0.2979
+    ],
+    "l00": [
+      0.6022,
+      0.6015,
+      0.2525,
+      0.4388,
+      0.3041,
+      0.1592,
+      0.4299,
+      0.2834
+    ],
+    "l01": [
+      0.6066,
+      0.4572,
+      0.4783,
+      0.6173,
+      0.3154,
+      0.594,
+      0.0,
+      0.4316
+    ],
+    "l02": [
+      0.5671,
+      0.5157,
+      0.6648,
+      0.2116,
+      0.2818,
+      0.5194,
+      0.4001,
+      0.0
+    ],
+    "l03": [
+      0.2771,
+      0.5374,
+      0.1558,
+      0.7795,
+      0.2465,
+      0.4746,
+      0.4617,
+      0.3516
+    ],
+    "l04": [
+      0.3062,
+      0.4018,
+      0.1485,
+      0.4594,
+      0.3334,
+      0.1624,
+      0.5806,
+      0.4302
+    ],
+    "l05": [
+      0.5595,
+      0.3321,
+      0.1067,
+      0.5639,
+      0.3347,
+      0.3422,
+      0.2817,
+      0.6723
+    ],
+    "l06": [
+      0.3792,
+      0.4089,
+      0.8201,
+      0.4052,
+      0.3968,
+      0.3121,
+      0.0791,
+      0.3927
+    ],
+    "l07": [
+      0.6653,
+      0.346,
+      0.6764,
+      0.3817,
+      0.4141,
+      0.2939,
+      0.5086,
+      0.6001
+    ],
+    "l08": [
+      0.4841,
+      0.4818,
+      0.404,
+      0.4669,
+      0.2647,
+      0.5177,
+      0.4166,
+      0.3064
+    ],
+    "l09": [
+      0.1608,
+      0.4504,
+      0.482,
+      0.411,
+      0.341,
+      0.3585,
+      0.4966,
+      0.2282
+    ]
+  },
+  "split": "train"
+}

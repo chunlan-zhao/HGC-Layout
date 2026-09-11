@@ -1,0 +1,28 @@
+# Exact versions used for the results reported in the manuscript.
+# requirements.txt gives floors for ordinary use; this file is the reproduction
+# environment. Python 3.10.13 on a single NVIDIA A100 80 GB HBM2e,
+# CUDA 12.1, cuDNN 8.9.7.
+#
+#   pip install torch==2.2.1 torchvision==0.17.1 --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements-lock.txt
+
+# --- versions stated in the Methods section -------------------------------
+torch==2.2.1
+torchvision==0.17.1
+torch-geometric==2.5.1
+transformers==4.38.2
+sentence-transformers==2.5.1
+numpy==1.26.4
+scikit-learn==1.4.1.post1
+matplotlib==3.8.3
+
+# --- [CONFIRM] run `pip freeze` on the machine that produced the reported
+# --- results and replace every x.y.z below. The SciPy version must also be
+# --- added to the "Hardware and software" paragraph of Methods, which now
+# --- names SciPy as the library performing the exact Wilcoxon tests.
+scipy==x.y.z          # [CONFIRM] scipy.stats.wilcoxon; this version must also go into the Methods software list
+pyyaml==x.y.z
+openai==x.y.z         # planner and SP judge, gpt-4o-mini
+
+# Holm-Bonferroni (stats/tests.py) and both ICC forms (metrics/reliability.py)
+# are implemented directly in this repository — no statsmodels, no pingouin.

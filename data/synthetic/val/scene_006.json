@@ -1,0 +1,886 @@
+{
+  "scene_id": "scene_006",
+  "category": "civic district",
+  "difficulty": "easy",
+  "tile_id": "tile_000",
+  "description": "A easy civic district of roughly one square kilometre containing 2 bus stops, 2 gardens, 2 linear green belts, 1 office block and 2 shops, arranged along the arterial road grid with several adjacent frontages.",
+  "boundary": {
+    "length": 1000.0,
+    "width": 1000.0
+  },
+  "entities": [
+    {
+      "id": "e00",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        6.94,
+        7.34,
+        3.18
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        768.13,
+        426.79
+      ],
+      "orientation": 1.4291
+    },
+    {
+      "id": "e01",
+      "type": "green",
+      "category": "park",
+      "description": "garden",
+      "size": [
+        80.67,
+        55.6,
+        0.43
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        357.15,
+        337.99
+      ],
+      "orientation": 6.1867
+    },
+    {
+      "id": "e02",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        8.09,
+        8.6,
+        3.09
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        605.66,
+        537.75
+      ],
+      "orientation": 1.6245
+    },
+    {
+      "id": "e03",
+      "type": "green",
+      "category": "park",
+      "description": "linear green belt",
+      "size": [
+        80.68,
+        59.98,
+        0.58
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        420.56,
+        412.31
+      ],
+      "orientation": 6.0413
+    },
+    {
+      "id": "e04",
+      "type": "building",
+      "category": "office",
+      "description": "office block",
+      "size": [
+        51.52,
+        39.98,
+        24.46
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        657.34,
+        551.23
+      ],
+      "orientation": 1.7515
+    },
+    {
+      "id": "e05",
+      "type": "green",
+      "category": "park",
+      "description": "garden",
+      "size": [
+        90.44,
+        63.18,
+        0.52
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        74.49,
+        397.82
+      ],
+      "orientation": 1.5465
+    },
+    {
+      "id": "e06",
+      "type": "building",
+      "category": "retail",
+      "description": "shop",
+      "size": [
+        35.11,
+        19.53,
+        8.05
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        713.74,
+        555.03
+      ],
+      "orientation": 1.6369
+    },
+    {
+      "id": "e07",
+      "type": "green",
+      "category": "park",
+      "description": "linear green belt",
+      "size": [
+        90.92,
+        67.3,
+        0.49
+      ],
+      "group": "green belt",
+      "parent": null,
+      "position": [
+        322.76,
+        434.88
+      ],
+      "orientation": 1.605
+    },
+    {
+      "id": "e08",
+      "type": "building",
+      "category": "retail",
+      "description": "shop",
+      "size": [
+        26.45,
+        22.4,
+        7.11
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        692.99,
+        448.55
+      ],
+      "orientation": 1.4194
+    }
+  ],
+  "relations": [
+    {
+      "source": "e00",
+      "target": "e04",
+      "type": "near",
+      "source_label": "bus stop",
+      "target_label": "office block"
+    },
+    {
+      "source": "e00",
+      "target": "e06",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "shop"
+    },
+    {
+      "source": "e00",
+      "target": "e08",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "shop"
+    },
+    {
+      "source": "e01",
+      "target": "e03",
+      "type": "adjacent_to",
+      "source_label": "garden",
+      "target_label": "linear green belt"
+    },
+    {
+      "source": "e01",
+      "target": "e07",
+      "type": "adjacent_to",
+      "source_label": "garden",
+      "target_label": "linear green belt"
+    },
+    {
+      "source": "e02",
+      "target": "e04",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "office block"
+    },
+    {
+      "source": "e02",
+      "target": "e06",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "shop"
+    },
+    {
+      "source": "e02",
+      "target": "e08",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "shop"
+    },
+    {
+      "source": "e03",
+      "target": "e04",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "office block"
+    },
+    {
+      "source": "e03",
+      "target": "e07",
+      "type": "adjacent_to",
+      "source_label": "linear green belt",
+      "target_label": "linear green belt"
+    },
+    {
+      "source": "e03",
+      "target": "e08",
+      "type": "near",
+      "source_label": "linear green belt",
+      "target_label": "shop"
+    },
+    {
+      "source": "e04",
+      "target": "e06",
+      "type": "adjacent_to",
+      "source_label": "office block",
+      "target_label": "shop"
+    },
+    {
+      "source": "e04",
+      "target": "e08",
+      "type": "adjacent_to",
+      "source_label": "office block",
+      "target_label": "shop"
+    },
+    {
+      "source": "e06",
+      "target": "e08",
+      "type": "adjacent_to",
+      "source_label": "shop",
+      "target_label": "shop"
+    },
+    {
+      "source": "e01",
+      "target": "e00",
+      "type": "facing",
+      "source_label": "garden",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e03",
+      "target": "e08",
+      "type": "facing",
+      "source_label": "linear green belt",
+      "target_label": "shop"
+    }
+  ],
+  "area_ratio": {
+    "commercial core": 0.1405,
+    "green belt": 0.8595
+  },
+  "pois": [
+    {
+      "id": "p00",
+      "category": "pharmacy",
+      "position": [
+        826.2745241275381,
+        539.743692944048
+      ]
+    },
+    {
+      "id": "p01",
+      "category": "market",
+      "position": [
+        524.6235598057555,
+        690.1353334468944
+      ]
+    },
+    {
+      "id": "p02",
+      "category": "gym",
+      "position": [
+        317.9033100291429,
+        786.6538836288887
+      ]
+    },
+    {
+      "id": "p03",
+      "category": "market",
+      "position": [
+        635.6496021709015,
+        812.4615248506875
+      ]
+    },
+    {
+      "id": "p04",
+      "category": "cafe",
+      "position": [
+        202.83274474304764,
+        193.85884301535583
+      ]
+    },
+    {
+      "id": "p05",
+      "category": "cafe",
+      "position": [
+        397.1789502477833,
+        348.58478464440134
+      ]
+    },
+    {
+      "id": "p06",
+      "category": "cafe",
+      "position": [
+        861.5699279640025,
+        865.1749253052199
+      ]
+    },
+    {
+      "id": "p07",
+      "category": "clinic",
+      "position": [
+        616.4588680169162,
+        841.5566864445714
+      ]
+    },
+    {
+      "id": "p08",
+      "category": "market",
+      "position": [
+        643.1955689015005,
+        180.88894237127644
+      ]
+    },
+    {
+      "id": "p09",
+      "category": "clinic",
+      "position": [
+        341.20789778523346,
+        799.6449088082625
+      ]
+    },
+    {
+      "id": "p10",
+      "category": "school",
+      "position": [
+        849.6807232243858,
+        715.8665452738243
+      ]
+    },
+    {
+      "id": "p11",
+      "category": "cafe",
+      "position": [
+        135.04179229191982,
+        598.864372276194
+      ]
+    },
+    {
+      "id": "p12",
+      "category": "pharmacy",
+      "position": [
+        581.2620280055178,
+        308.75716339409325
+      ]
+    },
+    {
+      "id": "p13",
+      "category": "cafe",
+      "position": [
+        63.505250976645804,
+        348.5665133721094
+      ]
+    }
+  ],
+  "roads": {
+    "nodes": [
+      {
+        "id": "r_0_0",
+        "position": [
+          180.0,
+          499.99999999999994
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_0_1",
+        "position": [
+          180.0,
+          606.6666666666666
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_1_0",
+        "position": [
+          499.99999999999994,
+          499.99999999999994
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_1_1",
+        "position": [
+          499.99999999999994,
+          606.6666666666666
+        ],
+        "kind": "intersection"
+      }
+    ],
+    "edges": [
+      [
+        "r_0_0",
+        "r_1_0"
+      ],
+      [
+        "r_0_0",
+        "r_0_1"
+      ],
+      [
+        "r_0_1",
+        "r_1_1"
+      ],
+      [
+        "r_1_0",
+        "r_1_1"
+      ]
+    ],
+    "axes": {
+      "x": [
+        180.0,
+        499.99999999999994
+      ],
+      "y": [
+        499.99999999999994,
+        606.6666666666666
+      ]
+    }
+  },
+  "land_cover": [
+    {
+      "id": "l00",
+      "class": "bare",
+      "position": [
+        777.6147677283763,
+        322.90520682991905
+      ]
+    },
+    {
+      "id": "l01",
+      "class": "vegetation",
+      "position": [
+        651.551574708489,
+        419.3916587052734
+      ]
+    },
+    {
+      "id": "l02",
+      "class": "built",
+      "position": [
+        275.4876810012511,
+        120.62539859795595
+      ]
+    },
+    {
+      "id": "l03",
+      "class": "bare",
+      "position": [
+        694.548870378339,
+        933.8294113363061
+      ]
+    },
+    {
+      "id": "l04",
+      "class": "bare",
+      "position": [
+        935.3993998962835,
+        261.2308678576939
+      ]
+    },
+    {
+      "id": "l05",
+      "class": "bare",
+      "position": [
+        909.906982002079,
+        632.0595003596042
+      ]
+    },
+    {
+      "id": "l06",
+      "class": "built",
+      "position": [
+        289.16821415843333,
+        371.7971562631998
+      ]
+    },
+    {
+      "id": "l07",
+      "class": "vegetation",
+      "position": [
+        612.1007653006213,
+        71.44978084311326
+      ]
+    },
+    {
+      "id": "l08",
+      "class": "vegetation",
+      "position": [
+        233.4079021176041,
+        131.69836972093452
+      ]
+    },
+    {
+      "id": "l09",
+      "class": "built",
+      "position": [
+        465.8368208414908,
+        751.4479247891044
+      ]
+    }
+  ],
+  "rs_stats": {
+    "e00": [
+      0.5638,
+      0.1886,
+      0.0876,
+      0.16,
+      0.036,
+      0.1009,
+      0.4627,
+      0.252
+    ],
+    "e01": [
+      0.0828,
+      0.8219,
+      0.0582,
+      0.0371,
+      0.6422,
+      0.0945,
+      0.4928,
+      0.3805
+    ],
+    "e02": [
+      0.5894,
+      0.1719,
+      0.0443,
+      0.1944,
+      0.0178,
+      0.0529,
+      0.5777,
+      0.2438
+    ],
+    "e03": [
+      0.1032,
+      0.7638,
+      0.0654,
+      0.0676,
+      0.6123,
+      0.0943,
+      0.469,
+      0.2949
+    ],
+    "e04": [
+      0.775,
+      0.1094,
+      0.004,
+      0.1116,
+      -0.0391,
+      0.0566,
+      0.608,
+      0.4018
+    ],
+    "e05": [
+      0.0471,
+      0.8478,
+      0.0253,
+      0.0798,
+      0.6576,
+      0.1059,
+      0.4313,
+      0.2346
+    ],
+    "e06": [
+      0.7958,
+      0.0743,
+      0.0,
+      0.1299,
+      -0.106,
+      0.1038,
+      0.4135,
+      0.2782
+    ],
+    "e07": [
+      0.0974,
+      0.7775,
+      0.0573,
+      0.0678,
+      0.6423,
+      0.122,
+      0.4277,
+      0.2642
+    ],
+    "e08": [
+      0.7513,
+      0.1034,
+      0.0169,
+      0.1284,
+      -0.0905,
+      0.106,
+      0.3518,
+      0.2731
+    ],
+    "p00": [
+      0.5201,
+      0.4941,
+      0.3689,
+      0.5428,
+      0.3505,
+      0.6973,
+      0.5573,
+      0.2877
+    ],
+    "p01": [
+      0.5287,
+      0.3672,
+      0.4578,
+      0.5835,
+      0.2762,
+      0.6108,
+      0.36,
+      0.5641
+    ],
+    "p02": [
+      0.4664,
+      0.3173,
+      0.1962,
+      0.2164,
+      0.4446,
+      0.2369,
+      0.3258,
+      0.363
+    ],
+    "p03": [
+      0.3038,
+      0.3329,
+      0.4911,
+      0.5678,
+      0.47,
+      0.4968,
+      0.4802,
+      0.3342
+    ],
+    "p04": [
+      0.4278,
+      0.1464,
+      0.4122,
+      0.3359,
+      0.5856,
+      0.1213,
+      0.2395,
+      0.7419
+    ],
+    "p05": [
+      0.5102,
+      0.6074,
+      0.2817,
+      0.1819,
+      0.4724,
+      0.424,
+      0.4816,
+      0.632
+    ],
+    "p06": [
+      0.5281,
+      0.1679,
+      0.3235,
+      0.069,
+      0.4821,
+      0.3302,
+      0.2094,
+      0.4539
+    ],
+    "p07": [
+      0.2342,
+      0.5512,
+      0.5076,
+      0.7352,
+      0.2871,
+      0.5432,
+      0.3324,
+      0.2194
+    ],
+    "p08": [
+      0.6787,
+      0.2408,
+      0.6476,
+      0.3467,
+      0.5087,
+      0.336,
+      0.284,
+      0.265
+    ],
+    "p09": [
+      0.3374,
+      0.4369,
+      0.6102,
+      0.281,
+      0.4043,
+      0.3596,
+      0.3874,
+      0.2465
+    ],
+    "p10": [
+      0.1929,
+      0.3297,
+      0.3952,
+      0.7607,
+      0.6248,
+      0.3393,
+      0.2058,
+      0.1436
+    ],
+    "p11": [
+      0.5415,
+      0.5806,
+      0.7115,
+      0.3606,
+      0.4584,
+      0.3486,
+      0.6137,
+      0.5393
+    ],
+    "p12": [
+      0.2838,
+      0.4254,
+      0.2501,
+      0.4167,
+      0.1877,
+      0.4294,
+      0.5789,
+      0.5896
+    ],
+    "p13": [
+      0.2141,
+      0.4077,
+      0.1997,
+      0.5638,
+      0.4611,
+      0.2298,
+      0.263,
+      0.4839
+    ],
+    "l00": [
+      0.1452,
+      0.4103,
+      0.4543,
+      0.301,
+      0.3602,
+      0.4136,
+      0.4867,
+      0.2127
+    ],
+    "l01": [
+      0.3157,
+      0.5201,
+      0.0083,
+      0.5471,
+      0.6006,
+      0.6845,
+      0.046,
+      0.3311
+    ],
+    "l02": [
+      0.3029,
+      0.6177,
+      0.5001,
+      0.5537,
+      0.5103,
+      0.1714,
+      0.463,
+      0.0733
+    ],
+    "l03": [
+      0.4663,
+      0.4302,
+      0.3729,
+      0.4358,
+      0.5072,
+      0.2828,
+      0.4538,
+      0.6184
+    ],
+    "l04": [
+      0.4594,
+      0.4346,
+      0.3978,
+      0.2053,
+      0.6143,
+      0.3381,
+      0.406,
+      0.3553
+    ],
+    "l05": [
+      0.3467,
+      0.3115,
+      0.2944,
+      0.5398,
+      0.6049,
+      0.4363,
+      0.2267,
+      0.3901
+    ],
+    "l06": [
+      0.7331,
+      0.4469,
+      0.3706,
+      0.2771,
+      0.4795,
+      0.3641,
+      0.5926,
+      0.563
+    ],
+    "l07": [
+      0.4771,
+      0.4113,
+      0.4808,
+      0.4473,
+      0.3649,
+      0.5995,
+      0.3861,
+      0.3198
+    ],
+    "l08": [
+      0.1484,
+      0.3678,
+      0.1699,
+      0.5144,
+      0.2791,
+      0.2627,
+      0.0603,
+      0.4414
+    ],
+    "l09": [
+      0.3546,
+      0.505,
+      0.2608,
+      0.5534,
+      0.5108,
+      0.6459,
+      0.3318,
+      0.5694
+    ]
+  },
+  "split": "val"
+}

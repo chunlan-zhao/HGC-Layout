@@ -1,0 +1,1310 @@
+{
+  "scene_id": "scene_004",
+  "category": "transport hub",
+  "difficulty": "medium",
+  "tile_id": "tile_004",
+  "description": "A medium transport hub of roughly one square kilometre containing 7 bus stops, 1 office block, 1 park, 2 parking accesss, 1 shop, 1 station building and 1 supermarket, arranged along the arterial road grid with several adjacent frontages.",
+  "boundary": {
+    "length": 1000.0,
+    "width": 1000.0
+  },
+  "entities": [
+    {
+      "id": "e00",
+      "type": "poi",
+      "category": "amenity",
+      "description": "parking access",
+      "size": [
+        9.21,
+        9.24,
+        3.26
+      ],
+      "group": "transport hub",
+      "parent": null,
+      "position": [
+        218.69,
+        553.26
+      ],
+      "orientation": 1.6027
+    },
+    {
+      "id": "e01",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        7.05,
+        7.82,
+        3.5
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        785.1,
+        523.45
+      ],
+      "orientation": 1.457
+    },
+    {
+      "id": "e02",
+      "type": "building",
+      "category": "transport",
+      "description": "station building",
+      "size": [
+        50.2,
+        40.55,
+        11.77
+      ],
+      "group": "transport hub",
+      "parent": null,
+      "position": [
+        30.58,
+        393.89
+      ],
+      "orientation": 1.7932
+    },
+    {
+      "id": "e03",
+      "type": "building",
+      "category": "retail",
+      "description": "supermarket",
+      "size": [
+        33.11,
+        19.23,
+        9.32
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        563.68,
+        645.77
+      ],
+      "orientation": 1.7249
+    },
+    {
+      "id": "e04",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        7.64,
+        7.91,
+        2.95
+      ],
+      "group": "transport hub",
+      "parent": null,
+      "position": [
+        256.63,
+        476.9
+      ],
+      "orientation": 1.6337
+    },
+    {
+      "id": "e05",
+      "type": "building",
+      "category": "retail",
+      "description": "shop",
+      "size": [
+        27.21,
+        25.68,
+        7.2
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        920.06,
+        434.61
+      ],
+      "orientation": 1.3952
+    },
+    {
+      "id": "e06",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        8.26,
+        8.79,
+        3.09
+      ],
+      "group": "transport hub",
+      "parent": null,
+      "position": [
+        311.33,
+        562.86
+      ],
+      "orientation": 0.0264
+    },
+    {
+      "id": "e07",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        7.77,
+        8.81,
+        2.97
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        657.47,
+        563.33
+      ],
+      "orientation": 1.5472
+    },
+    {
+      "id": "e08",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        8.6,
+        6.84,
+        3.41
+      ],
+      "group": "transport hub",
+      "parent": null,
+      "position": [
+        68.96,
+        397.63
+      ],
+      "orientation": 1.7705
+    },
+    {
+      "id": "e09",
+      "type": "building",
+      "category": "office",
+      "description": "office block",
+      "size": [
+        53.59,
+        39.91,
+        28.13
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        793.25,
+        434.74
+      ],
+      "orientation": 1.4906
+    },
+    {
+      "id": "e10",
+      "type": "poi",
+      "category": "amenity",
+      "description": "parking access",
+      "size": [
+        7.6,
+        8.09,
+        2.85
+      ],
+      "group": "transport hub",
+      "parent": null,
+      "position": [
+        178.6,
+        652.41
+      ],
+      "orientation": 1.46
+    },
+    {
+      "id": "e11",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        8.3,
+        9.12,
+        2.81
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        822.26,
+        394.71
+      ],
+      "orientation": 1.4887
+    },
+    {
+      "id": "e12",
+      "type": "poi",
+      "category": "amenity",
+      "description": "bus stop",
+      "size": [
+        9.2,
+        7.74,
+        2.93
+      ],
+      "group": "transport hub",
+      "parent": null,
+      "position": [
+        229.57,
+        340.21
+      ],
+      "orientation": 6.1619
+    },
+    {
+      "id": "e13",
+      "type": "green",
+      "category": "park",
+      "description": "park",
+      "size": [
+        90.0,
+        70.0,
+        0.5
+      ],
+      "group": "commercial core",
+      "parent": null,
+      "position": [
+        500.0,
+        500.0
+      ],
+      "orientation": 0.0
+    }
+  ],
+  "relations": [
+    {
+      "source": "e00",
+      "target": "e02",
+      "type": "near",
+      "source_label": "parking access",
+      "target_label": "station building"
+    },
+    {
+      "source": "e00",
+      "target": "e04",
+      "type": "adjacent_to",
+      "source_label": "parking access",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e00",
+      "target": "e06",
+      "type": "adjacent_to",
+      "source_label": "parking access",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e00",
+      "target": "e10",
+      "type": "adjacent_to",
+      "source_label": "parking access",
+      "target_label": "parking access"
+    },
+    {
+      "source": "e01",
+      "target": "e07",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e01",
+      "target": "e09",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "office block"
+    },
+    {
+      "source": "e01",
+      "target": "e11",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e02",
+      "target": "e04",
+      "type": "near",
+      "source_label": "station building",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e02",
+      "target": "e08",
+      "type": "adjacent_to",
+      "source_label": "station building",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e02",
+      "target": "e12",
+      "type": "near",
+      "source_label": "station building",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e03",
+      "target": "e06",
+      "type": "near",
+      "source_label": "supermarket",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e03",
+      "target": "e07",
+      "type": "adjacent_to",
+      "source_label": "supermarket",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e03",
+      "target": "e13",
+      "type": "near",
+      "source_label": "supermarket",
+      "target_label": "park"
+    },
+    {
+      "source": "e04",
+      "target": "e06",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e04",
+      "target": "e10",
+      "type": "near",
+      "source_label": "bus stop",
+      "target_label": "parking access"
+    },
+    {
+      "source": "e04",
+      "target": "e12",
+      "type": "adjacent_to",
+      "source_label": "bus stop",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e04",
+      "target": "e13",
+      "type": "near",
+      "source_label": "bus stop",
+      "target_label": "park"
+    },
+    {
+      "source": "e05",
+      "target": "e09",
+      "type": "adjacent_to",
+      "source_label": "shop",
+      "target_label": "office block"
+    },
+    {
+      "source": "e05",
+      "target": "e11",
+      "type": "adjacent_to",
+      "source_label": "shop",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e06",
+      "target": "e13",
+      "type": "near",
+      "source_label": "bus stop",
+      "target_label": "park"
+    },
+    {
+      "source": "e07",
+      "target": "e11",
+      "type": "near",
+      "source_label": "bus stop",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e07",
+      "target": "e13",
+      "type": "near",
+      "source_label": "bus stop",
+      "target_label": "park"
+    },
+    {
+      "source": "e09",
+      "target": "e11",
+      "type": "adjacent_to",
+      "source_label": "office block",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e04",
+      "target": "e10",
+      "type": "facing",
+      "source_label": "bus stop",
+      "target_label": "parking access"
+    },
+    {
+      "source": "e06",
+      "target": "e01",
+      "type": "facing",
+      "source_label": "bus stop",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e09",
+      "target": "e01",
+      "type": "facing",
+      "source_label": "office block",
+      "target_label": "bus stop"
+    },
+    {
+      "source": "e12",
+      "target": "e09",
+      "type": "facing",
+      "source_label": "bus stop",
+      "target_label": "office block"
+    },
+    {
+      "source": "e13",
+      "target": "e01",
+      "type": "facing",
+      "source_label": "park",
+      "target_label": "bus stop"
+    }
+  ],
+  "area_ratio": {
+    "transport hub": 0.1969,
+    "commercial core": 0.8031
+  },
+  "pois": [
+    {
+      "id": "p00",
+      "category": "cafe",
+      "position": [
+        845.751926477944,
+        792.3306991395222
+      ]
+    },
+    {
+      "id": "p01",
+      "category": "clinic",
+      "position": [
+        740.4505865507977,
+        377.1679770284361
+      ]
+    },
+    {
+      "id": "p02",
+      "category": "pharmacy",
+      "position": [
+        602.4145571983971,
+        907.7700414379799
+      ]
+    },
+    {
+      "id": "p03",
+      "category": "pharmacy",
+      "position": [
+        178.98531952668827,
+        766.128604008794
+      ]
+    },
+    {
+      "id": "p04",
+      "category": "cafe",
+      "position": [
+        278.1923029214628,
+        78.17373083962462
+      ]
+    },
+    {
+      "id": "p05",
+      "category": "bank",
+      "position": [
+        886.0237145538413,
+        87.83846631492744
+      ]
+    },
+    {
+      "id": "p06",
+      "category": "bank",
+      "position": [
+        393.36005062900864,
+        855.7229161649666
+      ]
+    },
+    {
+      "id": "p07",
+      "category": "gym",
+      "position": [
+        332.31760477885365,
+        648.219538588706
+      ]
+    },
+    {
+      "id": "p08",
+      "category": "market",
+      "position": [
+        351.5665277357139,
+        632.0511144831302
+      ]
+    },
+    {
+      "id": "p09",
+      "category": "clinic",
+      "position": [
+        747.9810420526783,
+        177.14015954264795
+      ]
+    },
+    {
+      "id": "p10",
+      "category": "bank",
+      "position": [
+        263.80863059354124,
+        181.61748492963724
+      ]
+    },
+    {
+      "id": "p11",
+      "category": "cafe",
+      "position": [
+        268.70162759538937,
+        881.0503216528838
+      ]
+    },
+    {
+      "id": "p12",
+      "category": "gym",
+      "position": [
+        606.1287513512656,
+        865.7795764786919
+      ]
+    },
+    {
+      "id": "p13",
+      "category": "gym",
+      "position": [
+        313.3888388936553,
+        134.75679126353756
+      ]
+    },
+    {
+      "id": "p14",
+      "category": "bank",
+      "position": [
+        841.6433603429301,
+        75.39786588445685
+      ]
+    },
+    {
+      "id": "p15",
+      "category": "clinic",
+      "position": [
+        837.4786191059546,
+        461.9363447419698
+      ]
+    },
+    {
+      "id": "p16",
+      "category": "market",
+      "position": [
+        524.4247824075037,
+        131.2440363095873
+      ]
+    },
+    {
+      "id": "p17",
+      "category": "pharmacy",
+      "position": [
+        710.3921708465614,
+        164.83569584007827
+      ]
+    },
+    {
+      "id": "p18",
+      "category": "clinic",
+      "position": [
+        510.50944878327084,
+        630.7947134111423
+      ]
+    },
+    {
+      "id": "p19",
+      "category": "gym",
+      "position": [
+        63.052198612249825,
+        173.51269892167332
+      ]
+    },
+    {
+      "id": "p20",
+      "category": "gym",
+      "position": [
+        102.33732108314052,
+        87.78053167397503
+      ]
+    }
+  ],
+  "roads": {
+    "nodes": [
+      {
+        "id": "r_0_0",
+        "position": [
+          286.66666666666663,
+          499.99999999999994
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_0_1",
+        "position": [
+          286.66666666666663,
+          606.6666666666666
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_0_2",
+        "position": [
+          286.66666666666663,
+          820.0
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_1_0",
+        "position": [
+          499.99999999999994,
+          499.99999999999994
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_1_1",
+        "position": [
+          499.99999999999994,
+          606.6666666666666
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_1_2",
+        "position": [
+          499.99999999999994,
+          820.0
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_2_0",
+        "position": [
+          713.3333333333331,
+          499.99999999999994
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_2_1",
+        "position": [
+          713.3333333333331,
+          606.6666666666666
+        ],
+        "kind": "intersection"
+      },
+      {
+        "id": "r_2_2",
+        "position": [
+          713.3333333333331,
+          820.0
+        ],
+        "kind": "intersection"
+      }
+    ],
+    "edges": [
+      [
+        "r_0_0",
+        "r_1_0"
+      ],
+      [
+        "r_0_0",
+        "r_0_1"
+      ],
+      [
+        "r_0_1",
+        "r_1_1"
+      ],
+      [
+        "r_0_1",
+        "r_0_2"
+      ],
+      [
+        "r_0_2",
+        "r_1_2"
+      ],
+      [
+        "r_1_0",
+        "r_2_0"
+      ],
+      [
+        "r_1_0",
+        "r_1_1"
+      ],
+      [
+        "r_1_1",
+        "r_2_1"
+      ],
+      [
+        "r_1_1",
+        "r_1_2"
+      ],
+      [
+        "r_1_2",
+        "r_2_2"
+      ],
+      [
+        "r_2_0",
+        "r_2_1"
+      ],
+      [
+        "r_2_1",
+        "r_2_2"
+      ]
+    ],
+    "axes": {
+      "x": [
+        286.66666666666663,
+        499.99999999999994,
+        713.3333333333331
+      ],
+      "y": [
+        499.99999999999994,
+        606.6666666666666,
+        820.0
+      ]
+    }
+  },
+  "land_cover": [
+    {
+      "id": "l00",
+      "class": "bare",
+      "position": [
+        86.6033813894046,
+        174.33342140649978
+      ]
+    },
+    {
+      "id": "l01",
+      "class": "built",
+      "position": [
+        665.1497350775334,
+        790.7779894274846
+      ]
+    },
+    {
+      "id": "l02",
+      "class": "bare",
+      "position": [
+        761.8151559688505,
+        64.76367518459436
+      ]
+    },
+    {
+      "id": "l03",
+      "class": "built",
+      "position": [
+        928.7067509377919,
+        535.447004549779
+      ]
+    },
+    {
+      "id": "l04",
+      "class": "built",
+      "position": [
+        703.9873589374574,
+        977.0334597326129
+      ]
+    },
+    {
+      "id": "l05",
+      "class": "water",
+      "position": [
+        926.8384771594633,
+        410.36931785230456
+      ]
+    },
+    {
+      "id": "l06",
+      "class": "bare",
+      "position": [
+        535.7191245684514,
+        67.18595100724234
+      ]
+    },
+    {
+      "id": "l07",
+      "class": "built",
+      "position": [
+        534.5060612091117,
+        230.0395681567403
+      ]
+    },
+    {
+      "id": "l08",
+      "class": "built",
+      "position": [
+        352.34564013939195,
+        249.396612999633
+      ]
+    },
+    {
+      "id": "l09",
+      "class": "bare",
+      "position": [
+        927.313876759558,
+        230.31480648401447
+      ]
+    }
+  ],
+  "rs_stats": {
+    "e00": [
+      0.6021,
+      0.2571,
+      0.0082,
+      0.1326,
+      0.0904,
+      0.0551,
+      0.4844,
+      0.2872
+    ],
+    "e01": [
+      0.6376,
+      0.2105,
+      0.0083,
+      0.1436,
+      0.0666,
+      0.1033,
+      0.4419,
+      0.3542
+    ],
+    "e02": [
+      0.8226,
+      0.0673,
+      0.0,
+      0.1101,
+      -0.1015,
+      0.0735,
+      0.6662,
+      0.342
+    ],
+    "e03": [
+      0.7348,
+      0.0927,
+      0.0134,
+      0.159,
+      -0.0805,
+      0.0797,
+      0.4265,
+      0.3649
+    ],
+    "e04": [
+      0.6183,
+      0.1894,
+      0.0046,
+      0.1877,
+      0.016,
+      0.0786,
+      0.459,
+      0.2907
+    ],
+    "e05": [
+      0.7175,
+      0.0795,
+      0.0,
+      0.203,
+      -0.053,
+      0.0888,
+      0.7487,
+      0.3639
+    ],
+    "e06": [
+      0.6037,
+      0.1741,
+      0.0626,
+      0.1596,
+      0.0228,
+      0.0635,
+      0.6846,
+      0.2824
+    ],
+    "e07": [
+      0.5882,
+      0.2263,
+      0.0301,
+      0.1553,
+      0.0953,
+      0.1092,
+      0.5752,
+      0.322
+    ],
+    "e08": [
+      0.5674,
+      0.2242,
+      0.0636,
+      0.1448,
+      0.0565,
+      0.0529,
+      0.4826,
+      0.3932
+    ],
+    "e09": [
+      0.772,
+      0.0848,
+      0.0134,
+      0.1298,
+      -0.0978,
+      0.0929,
+      0.5326,
+      0.3591
+    ],
+    "e10": [
+      0.6309,
+      0.2099,
+      0.0,
+      0.1592,
+      0.0287,
+      0.1016,
+      0.5073,
+      0.2619
+    ],
+    "e11": [
+      0.6205,
+      0.1743,
+      0.0357,
+      0.1695,
+      0.0389,
+      0.0904,
+      0.581,
+      0.3446
+    ],
+    "e12": [
+      0.592,
+      0.2443,
+      0.0095,
+      0.1542,
+      0.0665,
+      0.0407,
+      0.6659,
+      0.2001
+    ],
+    "e13": [
+      0.0945,
+      0.8487,
+      0.0224,
+      0.0343,
+      0.6221,
+      0.075,
+      0.6451,
+      0.2739
+    ],
+    "p00": [
+      0.2538,
+      0.0526,
+      0.5929,
+      0.4618,
+      0.3547,
+      0.5564,
+      0.3204,
+      0.3499
+    ],
+    "p01": [
+      0.7186,
+      0.2656,
+      0.4435,
+      0.4335,
+      0.4146,
+      0.4009,
+      0.204,
+      0.3794
+    ],
+    "p02": [
+      0.3636,
+      0.2997,
+      0.275,
+      0.2497,
+      0.2786,
+      0.4614,
+      0.4055,
+      0.6483
+    ],
+    "p03": [
+      0.4905,
+      0.3107,
+      0.3191,
+      0.3741,
+      0.3475,
+      0.4006,
+      0.6912,
+      0.3772
+    ],
+    "p04": [
+      0.4198,
+      0.2213,
+      0.1749,
+      0.3797,
+      0.3374,
+      0.4303,
+      0.6035,
+      0.3234
+    ],
+    "p05": [
+      0.2973,
+      0.5468,
+      0.3346,
+      0.4086,
+      0.3841,
+      0.6819,
+      0.1475,
+      0.2769
+    ],
+    "p06": [
+      0.4976,
+      0.574,
+      0.2456,
+      0.5768,
+      0.3293,
+      0.2911,
+      0.3055,
+      0.4531
+    ],
+    "p07": [
+      0.4727,
+      0.2688,
+      0.4309,
+      0.3427,
+      0.2211,
+      0.6538,
+      0.2549,
+      0.4154
+    ],
+    "p08": [
+      0.2253,
+      0.3353,
+      0.4136,
+      0.4242,
+      0.2464,
+      0.382,
+      0.4525,
+      0.6226
+    ],
+    "p09": [
+      0.5197,
+      0.5609,
+      0.495,
+      0.2999,
+      0.3507,
+      0.536,
+      0.2969,
+      0.2318
+    ],
+    "p10": [
+      0.3934,
+      0.1273,
+      0.2826,
+      0.2291,
+      0.3381,
+      0.5969,
+      0.7479,
+      0.489
+    ],
+    "p11": [
+      0.2559,
+      0.5097,
+      0.4631,
+      0.3096,
+      0.5322,
+      0.3275,
+      0.3131,
+      0.4086
+    ],
+    "p12": [
+      0.5028,
+      0.3448,
+      0.4533,
+      0.1256,
+      0.4438,
+      0.3282,
+      0.3216,
+      0.0211
+    ],
+    "p13": [
+      0.1826,
+      0.1382,
+      0.4908,
+      0.2617,
+      0.441,
+      0.4988,
+      0.318,
+      0.2459
+    ],
+    "p14": [
+      0.5816,
+      0.4393,
+      0.2151,
+      0.4721,
+      0.3004,
+      0.4697,
+      0.5239,
+      0.2775
+    ],
+    "p15": [
+      0.4737,
+      0.0,
+      0.4821,
+      0.106,
+      0.7788,
+      0.4531,
+      0.308,
+      0.57
+    ],
+    "p16": [
+      0.2823,
+      0.4179,
+      0.3573,
+      0.4002,
+      0.3161,
+      0.4657,
+      0.289,
+      0.4169
+    ],
+    "p17": [
+      0.4943,
+      0.3107,
+      0.5253,
+      0.4729,
+      0.3557,
+      0.3229,
+      0.3927,
+      0.3321
+    ],
+    "p18": [
+      0.3229,
+      0.3801,
+      0.3682,
+      0.416,
+      0.613,
+      0.5368,
+      0.5274,
+      0.4776
+    ],
+    "p19": [
+      0.3094,
+      0.2409,
+      0.3659,
+      0.5779,
+      0.5799,
+      0.1813,
+      0.1339,
+      0.6512
+    ],
+    "p20": [
+      0.6138,
+      0.306,
+      0.3884,
+      0.4075,
+      0.5655,
+      0.3268,
+      0.4888,
+      0.4411
+    ],
+    "l00": [
+      0.4451,
+      0.5581,
+      0.422,
+      0.2078,
+      0.5354,
+      0.3269,
+      0.5347,
+      0.4397
+    ],
+    "l01": [
+      0.2533,
+      0.4383,
+      0.3047,
+      0.4405,
+      0.3394,
+      0.5515,
+      0.2932,
+      0.3449
+    ],
+    "l02": [
+      0.295,
+      0.2809,
+      0.3595,
+      0.4321,
+      0.4841,
+      0.4077,
+      0.3317,
+      0.1661
+    ],
+    "l03": [
+      0.5413,
+      0.3239,
+      0.4601,
+      0.2402,
+      0.6271,
+      0.5037,
+      0.2667,
+      0.4522
+    ],
+    "l04": [
+      0.6014,
+      0.3735,
+      0.1448,
+      0.4685,
+      0.6771,
+      0.1604,
+      0.5537,
+      0.3651
+    ],
+    "l05": [
+      0.3863,
+      0.4288,
+      0.4018,
+      0.5294,
+      0.2253,
+      0.3871,
+      0.2597,
+      0.3234
+    ],
+    "l06": [
+      0.8459,
+      0.2731,
+      0.4673,
+      0.4459,
+      0.112,
+      0.2279,
+      0.1276,
+      0.3771
+    ],
+    "l07": [
+      0.2028,
+      0.2654,
+      0.1697,
+      0.501,
+      0.4895,
+      0.623,
+      0.3736,
+      0.5107
+    ],
+    "l08": [
+      0.5694,
+      0.7138,
+      0.2126,
+      0.2784,
+      0.2529,
+      0.192,
+      0.5072,
+      0.5092
+    ],
+    "l09": [
+      0.1903,
+      0.2371,
+      0.4471,
+      0.3262,
+      0.4344,
+      0.3746,
+      0.559,
+      0.569
+    ]
+  },
+  "split": "train"
+}

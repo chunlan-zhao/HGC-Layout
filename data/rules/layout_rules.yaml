@@ -1,0 +1,59 @@
+# Geospatial layout rules retrieved by the planning module.
+# Each rule has an id, the scene categories it applies to, a keyword list used
+# for retrieval, and the structured constraints it contributes to the plan.
+- id: rule_setback
+  applies_to: [all]
+  keywords: [road, arterial, setback, frontage, buffer]
+  text: Buildings keep a setback of at least 18 m from arterial road centrelines.
+  constraints:
+    buffer_distance_m: 18.0
+- id: rule_green_access
+  applies_to: [residential area, mixed-use neighborhood, campus]
+  keywords: [green, park, walkable, residential, accessibility]
+  text: Residential buildings lie within a 300 m walk of a green space.
+  constraints:
+    walkable_distance_m: 300.0
+- id: rule_retail_cluster
+  applies_to: [commercial center, retail cluster, mixed-use neighborhood]
+  keywords: [retail, shop, commercial, cluster, plaza]
+  text: Retail units cluster around a commercial core with short frontage gaps.
+  constraints:
+    proximity_distance_m: 60.0
+- id: rule_industrial_separation
+  applies_to: [industrial park, logistics park]
+  keywords: [industrial, warehouse, factory, separation, nuisance]
+  text: Industrial halls keep larger separation from residential blocks.
+  constraints:
+    proximity_distance_m: 140.0
+- id: rule_transport_access
+  applies_to: [transport hub, commercial center, logistics park]
+  keywords: [station, bus, parking, transport, access]
+  text: Transport entities attach directly to the road network.
+  constraints:
+    proximity_distance_m: 40.0
+- id: rule_waterfront_edge
+  applies_to: [waterfront]
+  keywords: [water, basin, promenade, edge, quay]
+  text: Built entities align to the water edge and leave a public promenade.
+  constraints:
+    frontage_distance_m: 35.0
+- id: rule_zone_shares
+  applies_to: [all]
+  keywords: [zone, share, ratio, mix, land use]
+  text: Functional zone area shares follow the mix stated in the description.
+  constraints: {}
+- id: rule_boundary
+  applies_to: [all]
+  keywords: [boundary, extent, region, containment]
+  text: Every entity lies fully inside the designated scene boundary.
+  constraints: {}
+- id: rule_orientation
+  applies_to: [all]
+  keywords: [orientation, alignment, facade, street]
+  text: Building facades align with the bearing of the nearest road segment.
+  constraints: {}
+- id: rule_hierarchy
+  applies_to: [all]
+  keywords: [hierarchy, zone, group, decomposition]
+  text: A district decomposes into functional zones before entities are placed.
+  constraints: {}
