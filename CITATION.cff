@@ -36,6 +36,7 @@ authors:
 
 version: "1.0.0"
 date-released: "2026-09-12"
+doi: "10.5281/zenodo.22718215"
 repository-code: "https://github.com/chunlan-zhao/HGC-Layout"
 license: MIT
 
